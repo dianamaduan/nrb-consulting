@@ -1,0 +1,143 @@
+.header-section {
+    background-image: url("images/Black.svg"); 
+    background-size: cover;
+    height: auto;
+
+}
+.links-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#line {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    overflow: hidden;
+    border-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(32, 32, 32, 0.6);
+}
+.links div a {
+    margin: 0 40px; 
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.links img {
+    margin: -5px 6px;
+    padding: 0 5px;
+}
+
+.links .links-1 {
+    display: flex; 
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    margin: 0 30px;
+}
+
+.div-text h1 {
+    font-size: 7vw;
+    line-height: 7vw;
+    font-weight: 800;
+    color: #220959;
+}
+
+.div-text p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 50px;
+    margin: 20px 0; 
+    color: #202020;
+}
+
+.div-text button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #220959;
+    box-sizing: border-box;
+    border-radius: 60px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    outline: none;
+   
+
+}
+
+.div-text button:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div-text {
+    width: 50%;
+    margin: 150px 0 50px 70px;
+}
+
+.social-media {
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+.social-media a {
+    margin-left: 10px;
+}
+
+.social-media a img:hover {
+    transform: scale(1.1);
+}
+a:hover{
+    color: #fff !important;
+}
+
+
+@media(max-width: 800px){
+    .div-text{
+        margin-top: 40px;
+    }
+
+    .div-text p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+  }
+  
+
+@media(max-width: 500px){
+    .logo img{
+        width: 50%;
+    }
+    .div-text h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .div-text{
+        margin-left: 30px;
+    }
+    .div-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+  }
+  
+  @media(max-width: 350px){
+    .div-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .div-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .social-media {
+        margin-left: 40px;
+    }
+  }
+  

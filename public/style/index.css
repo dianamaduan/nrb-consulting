@@ -1,0 +1,20 @@
+@import url('reset.css');
+@import url('main.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('menu.css');
+@font-face{
+    font-family:'Gotham';
+    src:url('GothamPro-Light/GothamPro-Light.ttf');
+}
+@font-face{
+    font-family:'Gotham Bold';
+    src:url('GothamPro-Medium/GothamPro-Medium.ttf');
+}
+body{
+    /* min-width: 1453px; */
+    font-family:'Gotham';
+}
+h1,h2,h3,h4{
+    font-family:'Gotham Bold';
+}
